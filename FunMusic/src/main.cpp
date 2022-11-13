@@ -385,6 +385,51 @@ void quocca(){
   delay(125);
 }
 
+void conbuomvang(){
+    tone(A2,NOTE_C3,200);
+    delay(100);
+    tone(A2,NOTE_D3,200);
+    delay(100);
+    tone(A2,NOTE_E3,200);
+    delay(100);
+    tone(A2,NOTE_C3,200);
+    delay(200);
+    tone(A2,NOTE_C3,200);
+    delay(100);
+    tone(A2,NOTE_D3,200);
+    delay(100);
+    tone(A2,NOTE_E3,200);
+    delay(100);
+    tone(A2,NOTE_C3,200);
+    delay(200);    
+    tone(A2,NOTE_E3,200);
+    delay(100);
+    tone(A2,NOTE_F3,200);
+    delay(100);
+    tone(A2,NOTE_G3,200);
+    delay(150);
+    tone(A2,NOTE_E3,200);
+    delay(100);
+    tone(A2,NOTE_F3,200);
+    delay(100);
+    tone(A2,NOTE_G3,200);
+    delay(150);
+    tone(A2,NOTE_G3,200);
+    delay(100);
+    tone(A2,NOTE_A3,200);
+    delay(100); 
+    tone(A2,NOTE_G3,200);
+    delay(100);
+    tone(A2,NOTE_F3,200);
+    delay(100);
+    tone(A2,NOTE_E3,200);
+    delay(100); 
+    tone(A2,NOTE_C3,200);
+    delay(100); 
+    tone(A2,NOTE_G2,200);
+    delay(100);
+}
+
 void loop() {
   superidol();
   delay(10000000);
